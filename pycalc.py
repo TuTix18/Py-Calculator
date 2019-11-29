@@ -1,6 +1,5 @@
 import os
 from os import system
-# pycalc v1
 
 print("******************")
 print("PyCalculator v1 ")
@@ -24,5 +23,8 @@ elif (signal == '**'):
     print(x ** y)
 elif (signal == '%'):
     print (x % y)
+else:
+  print("Please enter a valid signal")
 
 system("pause")
+
