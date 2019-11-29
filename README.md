@@ -1,4 +1,4 @@
-# PyCalculator
+# Py-Calculator
 A calculator with console interface
 
 This project is under development. It will be a console calculator with Python.
