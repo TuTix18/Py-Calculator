@@ -10,17 +10,17 @@ x = float(input("First Number "))
 signal = (input(" Signal ('+', '-', '*', '**', '/', '%') "))
 y = float(input("Second Number "))
 
-if (signal == '+'):
+if signal == '+':
     print(x + y)
-elif (signal == '-'):
+elif signal == '-':
     print(x - y)
-elif (signal == '*'):
+elif signal == '*':
     print (x * y)
-elif (signal == '/'):
+elif signal == '/':
     print (x / y)
-elif (signal == '**'):
+elif signal == '**':
     print(x ** y)
-elif (signal == '%'):
+elif signal == '%':
     print (x % y)
 else:
   print("Please enter a valid signal")
