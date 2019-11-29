@@ -1,8 +1,3 @@
-# Color settings
-class colors:
-    GREEN = '\033[92m'
-    RED = '\033[91m'
-
 # main program
 while True:
     print() # prints a new line
@@ -13,9 +8,9 @@ while True:
     print()
     print("Enter the numbers below")
 
-    x = float(input(colors.GREEN + "First Number "))
-    signal = (input(colors.GREEN + "Signal ('+', '-', '*', '**', '/', '%') "))
-    y = float(input(colors.GREEN + "Second Number "))
+    x = float(input("First Number "))
+    signal = (input("Signal ('+', '-', '*', '**', '/', '%') "))
+    y = float(input("Second Number "))
 
     if signal == '+':
         print(x + y)
@@ -30,4 +25,4 @@ while True:
     elif signal == '%':
         print(x % y)
     else:
-        print(colors.RED + "Please enter a valid signal")
+        print("Please enter a valid signal")
