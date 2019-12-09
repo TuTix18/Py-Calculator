@@ -1,15 +1,15 @@
 # main program
 while True:
-    print() # prints a new line
+    print()
     print("******************")
-    print("PyCalculator v1 ")
-    print("By: TuTix18")
+    print("PyCalculator v2")
+    print("Written in Python, By: TuTix18")
     print("******************")
     print()
     print("Enter the numbers below")
 
     x = float(input("First Number "))
-    signal = (input("Signal ('+', '-', '*', '**', '/', '%') "))
+    signal = input("Signal ('+', '-', '*', '**', '/', '%') ")
     y = float(input("Second Number "))
 
     if signal == '+':
